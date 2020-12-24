@@ -1,10 +1,8 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+    siteMetadata: {
+        title: `Selamat Datang Di Website Kami`,
+        author: `Khendiyan`,
+        Description: `Website Kami GatsbyJS`,
+},
+plugins: [`gatsby-plugin-sass`],
 }
